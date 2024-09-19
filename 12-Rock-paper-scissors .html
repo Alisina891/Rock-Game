@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+    <link rel="stylesheet" href="styles/12-rock-paper-scissors.css">
+    
+</head>
+<body>
+ 
+    <p>  بازی : سنگ کاغذ و قیچی</p>
+
+    
+    
+     <div class="a">
+      <button class="move-button"><img src="Rock.img/سنگ-emoji.png" class="move-icon js-rock-button "></button>
+     <button  class="move-button"><img src="Rock.img/کاغذ-emoji.png" class="move-icon js-paper-button"></button>
+     <button  class="move-button js-button js-scissors-button"> <img src="Rock.img/قیچی-emoji.png" class="move-icon"></button>
+       
+        <p class="js-result result"></p>
+        <p class="js-moves"></p>
+        <p class="js-score score"></p>
+      
+
+      <button onclick="
+      score.losses = 0;
+      score.wins = 0;
+      score.ties = 0;
+      localStorage.removeItem('score')
+      updateScore ();
+      stop(autoplay())
+      " class="reset-score">مجدد</button>
+      <button onclick="
+       autoplay();
+      " class="reset-score">خود کار</button>
+      <p> Ali</p></div>
+      
+              
+</body>
+
+
+<script  src="scripts/12-rock-paper-scissors.js"></script>
+</html>
+
+
+
+

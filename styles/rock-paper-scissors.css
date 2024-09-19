@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: Arial;
+   }
+    p{ 
+        
+        text-align: center;
+        font-size: 28px;
+    }
+     button{
+        background-color: rgb(251, 251, 251);
+     }
+     .a{
+      
+      text-align: center;
+     }
+     button{
+      font-size: 40px;
+     }
+    .ali{
+      text-align: center;
+     
+    }
+    #d1{
+      background-color: hsl(148, 85%, 50%);
+    }  
+    .move-icon{
+      height: 50px;
+    }
+    .move-button{
+      background-color: transparent;
+      border: 3px solid white;
+      width: 120px;
+      height: 120px;
+      border-radius: 60px;
+      margin-right: 10px;
+      cursor: pointer;
+    } 
+    .result{
+      font-size: 25px;
+      font-weight: bold;
+      margin-top: 60px;
+    }
+    .score{
+      margin-top: 50px;
+    }
+    .reset-score{
+      background-color: white;
+      border: none;
+      padding: 4px 15px;
+      cursor: pointer;
+    }
